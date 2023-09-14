@@ -4,6 +4,18 @@
     background-color: #f8f8f8;
     border-color: #e7e7e7;
 } */
+
+@import url(https://fonts.googleapis.com/css?family=Open+Sans|Montserrat); @import url(https://fonts.googleapis.com/css?family=Ubuntu); body {
+    background: #fff;
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    color: #333;
+    overflow-x: hidden;
+    margin-top: 78px
+}
+
 @media only screen and (max-width: 600px) and (min-width: 300px)  {
 
     .Navbar{
@@ -17,6 +29,12 @@
     margin: 0;
     box-sizing: border-box;
 }
+
+body{
+    font-weight: normal;
+    font-family: 'Montserrat', sans-serif !important;
+}
+
 .bg23{
     background:#942924 url(./png-images/abhivyakti-spotlight1.png);
     background-size: cover;
@@ -42,11 +60,15 @@
 .Navbar1 {
     background-color: #f8f8f8;
     border-color: #e7e7e7;
+    /* border: 2px solid red; */
 }
 
 .Navbar2 {
-    background: #1c1b1f;
-
+    position: relative;
+    z-index: 1;
+    background:#1c1b1f;
+    /* border: 2px solid red; */
+    box-shadow: 2px 5px 10px;
     /* margin-bottom: 0; */
     /* min-height: 50px; */
     /* z-index: 9999; */
@@ -56,6 +78,7 @@
     color: white;
     padding: 13px 20px;
    list-style-type: none;
+
    
 
 }
@@ -72,6 +95,55 @@
     width: 150px;
     position: absolute;
     left: 100px;
-    top: 0px;
+    top: -50px;
     z-index: 1;
 }
+.bg-img1{
+    background-image: url("228252.jpg") ;
+    height: 50vh;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: top;
+    filter: blur(5px);
+    height: 30rem;
+    position: relative;
+}
+
+.bg-text {
+    /* background-color: rgb(0,0,0); Fallback color */
+    /* background-color: rgba(0,0,0, 0.4); Black w/opacity/see-through */
+    color: white;
+    font-weight: bold;
+    border: 3px solid #f1f1f1;
+    position: absolute;
+    top: 200px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+    width: 80%;
+    padding: 20px;
+    text-align: center;
+    height: 300px;
+  }
+
+
+  .booterniche{
+    border-bottom: 2px solid red;
+    width: 15%;
+    display: flex;
+    position: relative;
+    left: 42%;
+    padding-top: 1rem;
+    margin-bottom: 10px;
+  }
+  .copyright{
+    height: 10rem;
+    background-color:#1c1b1f;
+    color: white;
+    
+  }
+
+  .copyright div ul li{
+    list-style-type: none;
+  }
+  
